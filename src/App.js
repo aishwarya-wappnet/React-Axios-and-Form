@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import AxiosData from './components/Axios/AxiosData';
+import BasicForm from './components/Forms/BasicForm';
+import MultipleInputs from './components/Forms/MultipleInputs';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    {/* <AxiosData/> */}
+    {/* <BasicForm/> */}
+    <MultipleInputs />
+    </>
+  )
 }
 
 export default App;
