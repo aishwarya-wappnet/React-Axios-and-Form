@@ -1,3 +1,7 @@
+# Axios: Upgraded version of fetch
+
+Axios is lightweight package and it is used to make Http requests in any JavaScript library like react, angular or vue. Axios makes it easy to send asynchronous Http requests to REST endpoints and perform CRUD operations. If you use Fetch method in js, Axios is the 'Easy to use' version of Fetch.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
